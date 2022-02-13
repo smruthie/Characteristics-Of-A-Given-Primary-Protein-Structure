@@ -59,7 +59,7 @@ hydrophobicity = hydrophobic_AA/len(sequence_list)*100
 polar_residues = polar_AA/len(sequence_list)*100
 nonpolar_residues = nonpolar_AA/len(sequence_list)*100
 if 'B' in sequence_list or 'O' in sequence_list or 'J' in sequence_list or 'X' in sequence_list or 'Z' in sequence_list or 'U' in sequence_list:
-    print("There's an imposter in this sequence!") #prints this if one of the letters entered is not an amino acid
+    print("There's an imposter in this sequence!") #prints this if one or more of the letters entered is not an amino acid
 else:    
     print("\n", "N -", peptide_sequence.upper(), "- C")
     print("\n", "Length of peptide sequence: ", len(sequence_list), "amino acids")
