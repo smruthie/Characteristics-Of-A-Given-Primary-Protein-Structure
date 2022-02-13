@@ -6,19 +6,19 @@ polar_AA = 0
 nonpolar_AA = 0
 sequence_list = list(peptide_sequence.upper())
 if 'G' in sequence_list:
-	nonpolar_AA += 1
+    nonpolar_AA += 1
 if 'C' in sequence_list:
-	nonpolar_AA += 1
+    nonpolar_AA += 1
 if 'S' in sequence_list:
-	polar_AA += 1
+    polar_AA += 1
 if 'T' in sequence_list:
-	polar_AA += 1
+    polar_AA += 1
 if 'Y' in sequence_list:
-	polar_AA += 1
+    polar_AA += 1
 if 'N' in sequence_list:
-	polar_AA += 1
+    polar_AA += 1
 if 'Q' in sequence_list:
-	polar_AA += 1
+    polar_AA += 1
 if 'D' in sequence_list:
     acidic_AA += 1
 if 'E' in sequence_list:
