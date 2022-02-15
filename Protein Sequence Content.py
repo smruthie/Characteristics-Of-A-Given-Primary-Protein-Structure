@@ -53,11 +53,7 @@ if 'W' in sequence_list:
 if 'M' in sequence_list:
     hydrophobic_AA += 1
     nonpolar_AA += 1
-acidic_residues = acidic_AA/len(sequence_list)*100
-basic_residues = basic_AA/len(sequence_list)*100
 hydrophobicity = hydrophobic_AA/len(sequence_list)*100
-polar_residues = polar_AA/len(sequence_list)*100
-nonpolar_residues = nonpolar_AA/len(sequence_list)*100
 if 'B' in sequence_list or 'O' in sequence_list or 'J' in sequence_list or 'X' in sequence_list or 'Z' in sequence_list or 'U' in sequence_list:
     print("There's an imposter in this sequence!") #prints this if one or more of the letters entered is not an amino acid
 else:    
