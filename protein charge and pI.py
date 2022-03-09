@@ -1,12 +1,10 @@
 pKa_Nt = 8.0 # N-terminal pKa
 pKa_Ct = 3.1 # C-terminal pKa
 
-
 # pKa's of amino acids near N- and C- terminals and side chain pKa's - Source: https://www.chem.ucalgary.ca/courses/351/Carey5th/Ch27/ch27-1-4-2.html
 Nt_AA = {'A':9.87, 'R':8.99, 'N':8.72, 'D':9.90, 'C':10.70, 'E':9.47, 'Q':9.13, 'G':9.78, 'H':9.33, 'I':9.76, 'L':9.74, 'K':9.06, 'M':9.28, 'F':9.31, 'P':10.64, 'S':9.21, 'T':9.10, 'W':9.41, 'Y':9.21, 'V':9.74} # N-terminal amino acid pKa's
 Ct_AA = {'A':2.35, 'R':1.82, 'N':2.14, 'D':1.99, 'C':1.92, 'E':2.10, 'Q':2.17, 'G':2.35, 'H':1.80, 'I':2.32, 'L':2.33, 'K':2.16, 'M':2.13, 'F':2.20, 'P':1.95, 'S':2.19, 'T':2.09, 'W':2.46, 'Y':2.20, 'V':2.29} # C-terminal amino acid pKa's
 R_AA = {'R':12.48, 'D':3.90, 'C':8.37, 'E':4.07, 'H':6.04, 'K':10.54, 'Y':10.46} # side chain amino acid pKa's
-
 
 with open(input("Enter file name: "), "r") as file:
 	for line in file:
