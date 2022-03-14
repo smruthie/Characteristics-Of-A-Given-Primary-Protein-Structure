@@ -66,7 +66,7 @@ if 'F' in sequence_list:
     hydrophobic_AA += F
     nonpolar_AA += F
 if 'W' in sequence_list:
-    W = sequence_list('W')
+    W = sequence_list.count('W')
     hydrophobic_AA += W
     nonpolar_AA += W
 if 'M' in sequence_list:
