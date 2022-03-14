@@ -1,5 +1,3 @@
 # Computing Chemical Characteristics of Primary Protein Structure
 
-Protein Sequence Content.py: Calculates the amount of acidic, basic, polar, non-polar, hydrophobic, and hydrophilic residues in a peptide sequence entered by the user. 
-
-protein charge and pI.py: Calculates the protein charge based on user-inputted protein sequence file, and also the isoelectric point if the net charge of the protein is zero. I need to verify pKa values of amino acids with other sources as well, and will make updates accordingly. 
+The programs in this repository calculates the fundamental chemical characteristics of a user-inputted protein sequence: acidic, basic, hydrophobic, and hydrophilic residues. One takes the sequence typed by the user, and another accepts a sequence file as a user-input to calculate protein charges and isoelectric point (when net charge = 0). I need to verify the pKa values of amino acids with other sources as well, and will make updates accordingly. 
