@@ -1,4 +1,4 @@
-# Computing Chemical Characteristics of Primary Protein Structure
+# Computing Characteristics of Primary Protein Structure
 
 The programs in this repository calculate the fundamental chemical characteristics of a user-inputted protein sequence: acidic, basic, hydrophobic, and hydrophilic residues; protein charges and isoelectric point at a net charge of zero. The pKa values of amino acids need to be verified with additional sources; updates will be made accordingly.
 
