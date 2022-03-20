@@ -1,3 +1,4 @@
+# Calculates isoelectric point at a net charge of zero and protein charges at user-inputted pH
 pKa_Nt = 8.0 # N-terminal pKa
 pKa_Ct = 3.1 # C-terminal pKa
 
