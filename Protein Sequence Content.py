@@ -1,3 +1,4 @@
+# Calculates acidic, basic, hydrophobic, and hydrophilic residues
 peptide_sequence = str(input("Enter a peptide sequence: ")) 
 acidic_AA = 0
 basic_AA = 0
